@@ -2,14 +2,19 @@
 using namespace std;
 int main()
 {
-    int n,reverse=0;
-    cout<<"Enter number:"<<endl;
-    cin>>n;
-    while(n!=0){
-        int digit=n%10;
+    string s,reverse;
+    cout<<"Enter your string:"<<endl;
+    cin>>s;
+    rev=s;
+    while(s!=0){
+        string digit=s%10;
         reverse=reverse*10+digit;
-        n=n/10;
+        s=s/10;
     }
-    cout<<"Reversed number:"<<reverse<<endl;
+    cout<<"Reversed string:"<<reverse<<endl;
+    if(s==reverse)
+    cout<<"The string is palindrome"<<endl;
+    else
+    cout<<"The string is not a palindrome"<<endl;
     return 0;
 }
