@@ -12,4 +12,5 @@ int main()
     }
     cout<<"sum of number:"<<sum;
     return 0;
+    
 }
