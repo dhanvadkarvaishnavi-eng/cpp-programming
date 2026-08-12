@@ -6,7 +6,7 @@ class Student{
     string name;
     int Rollno;
     float per;
- private:
+ public:
    void input(){
     cout<<"Enter your name:"<<endl;
     cin>>name;
@@ -22,16 +22,13 @@ class Student{
      cout<<"Roll Number:"<<Rollno<<endl;
      cout<<"Percentage:"<<per<<endl;
      }
- public:
-   void process()
-   {
-    input();
-    display();
-   }
+   
 };
 int main()
 {
     Student s;
-    s.process();
+    s.input();
+    s.display();
     return 0;
 }
+ 
