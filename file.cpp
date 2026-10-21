@@ -11,7 +11,7 @@ int main()
 
     // Open file for writing
     file1.open("student.txt",ios::app);
-    file1<< "abdmcvcb hchf ncj";
+    file1<< "\nabdmcvcb hchf ncj";
     cout<<"File created successfully";
     file1.close();
 
