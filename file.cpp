@@ -10,8 +10,9 @@ int main()
     string data;
 
     // Open file for writing
-    file1.open("student.txt");
-    file1<< "Welcome to cpp programming";
+    file1.open("student.txt",ios::app);
+    file1<< "abdmcvcb hchf ncj";
+    cout<<"File created successfully";
     file1.close();
 
     // Open file for reading
